@@ -1,0 +1,266 @@
+@charset "UTF-8";
+.encabezado {
+  background-color: #72737245;
+  border-bottom: 2px solid #fd2525; }
+
+header img {
+  width: 25rem; }
+
+body {
+  background-color: #F6EFDE;
+  /* Carousel */
+  /* TITULO Noticias en vivo  */
+  /* section Principales noticias */
+  /* Section noticias replay */
+  /* video y texto noticias replay en Index */
+  /* Destacados */
+  /* Clima Section */
+  /* Noticia Política */
+  /* CARDS */
+  /*  FOOTER */ }
+  body a {
+    font-size: 19px;
+    color: #ffffff;
+    text-decoration: none; }
+    body a:hover {
+      font-size: 19px;
+      color: #083e98; }
+    body a:visited {
+      color: none; }
+  body .estiloListaMenu {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding: 1% 0% 1% 0%;
+    margin-bottom: 0%; }
+    body .estiloListaMenu li {
+      display: inline;
+      padding: 10px;
+      margin: 30px;
+      position: relative; }
+  body h1 {
+    color: #fd2525;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem; }
+  body h2 {
+    color: #083e98; }
+  body .carouselCss {
+    margin-top: 2rem; }
+  body .imgCarousel {
+    height: 480px;
+    object-fit: cover; }
+  body .noticiasVivo {
+    width: 25%;
+    height: 30%;
+    position: fixed;
+    right: 0;
+    bottom: 10%; }
+  body .principalesNoticias {
+    background-color: #fffef6;
+    margin-top: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: auto; }
+    body .principalesNoticias img {
+      background-position: center;
+      width: 100%; }
+    body .principalesNoticias h2 {
+      color: #083e98;
+      font-family: "Barlow", sans-serif;
+      font-style: oblique;
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
+    body .principalesNoticias p {
+      color: #01235d;
+      font-family: "Barlow", sans-serif;
+      font-size: 1.2rem;
+      text-align: justify;
+      margin: 10px;
+      padding: 7px; }
+  body .noticiaReplay {
+    background-color: #fffef6;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30%; }
+    body .noticiaReplay iframe {
+      background-position: center;
+      width: 100%; }
+    body .noticiaReplay h2 {
+      color: #083e98;
+      font-family: "Barlow", sans-serif;
+      font-style: oblique;
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
+    body .noticiaReplay p {
+      color: #01235d;
+      font-family: "Barlow", sans-serif;
+      font-size: 1.2rem;
+      text-align: justify;
+      margin: 10px;
+      padding: 7px; }
+  body .destacados {
+    height: 17rem;
+    width: 20rem;
+    margin-top: 2rem;
+    background-color: #eee;
+    font: 1rem "Fira Sans", sans-serif;
+    margin: auto; }
+    body .destacados h2 {
+      color: #083e98;
+      text-align: center; }
+  body .noticiasDestacadas {
+    display: flex;
+    justify-content: flex-end; }
+    body .noticiasDestacadas img {
+      margin-top: 1rem;
+      width: 30%;
+      height: 30%;
+      top: 30%;
+      left: 40%; }
+    body .noticiasDestacadas p {
+      margin: 1rem;
+      font-size: 1rem;
+      font-style: italic; }
+  body .climaBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    margin-top: 3rem; }
+  body .noticiaPolitica {
+    background-color: #fffef6;
+    background-position: center;
+    width: auto;
+    margin-top: 5rem;
+    margin-left: 5%;
+    margin-right: 5%; }
+    body .noticiaPolitica iframe {
+      border: 1px;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      padding-left: 15%;
+      padding-right: 15%; }
+    body .noticiaPolitica h2 {
+      color: #083e98;
+      font-family: "Barlow", sans-serif;
+      font-style: oblique;
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
+    body .noticiaPolitica p {
+      color: #01235d;
+      font-family: "Barlow", sans-serif;
+      font-size: 1.2rem;
+      text-align: justify;
+      margin: 10px;
+      padding: 7px; }
+  body .cardClass {
+    color: #990101; }
+  body .boxSize {
+    width: 38rem;
+    margin-left: auto;
+    margin-right: auto; }
+  body .sectionCard {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    margin-top: 3rem; }
+  body .footer {
+    background-color: #990101;
+    text-align: center;
+    color: antiquewhite; }
+
+/* Flex Deportes */
+.futbol {
+  background-color: #fffef65e;
+  margin-top: 5rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: auto; }
+  .futbol img {
+    border: 1px #fd2525 solid;
+    background-position: center;
+    width: 100%; }
+  .futbol h3 {
+    color: #01235d;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  .futbol p {
+    color: #01235d;
+    font-family: "Barlow", sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 10px;
+    padding: 7px; }
+
+/* Tenis  */
+.tenis {
+  background-color: #fffef65e;
+  margin-top: 5rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: auto; }
+  .tenis img {
+    background-position: center;
+    width: 100%; }
+  .tenis h3 {
+    color: #01235d;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center; }
+  .tenis p {
+    color: #01235d;
+    font-family: "Barlow", sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 10px;
+    padding: 7px; }
+
+/* Box */
+.boxeo {
+  background-color: #fffef65e;
+  margin-top: 5rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: auto; }
+  .boxeo img {
+    background-position: center;
+    width: 100%; }
+  .boxeo h3 {
+    color: #01235d;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center; }
+  .boxeo p {
+    color: #01235d;
+    font-family: "Barlow", sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 10px;
+    padding: 7px; }
+
+.tormenta {
+  margin-top: 1rem;
+  width: 50%;
+  height: 50%;
+  top: 30%;
+  left: 40%; }
+
+/* Formulario */
+.fondoForm {
+  background: url(../img/fondoOk.jpg) no-repeat;
+  background-size: cover; }
+
+/* Media Query Celulares */
+.noticiasVivo {
+  display: none; }
